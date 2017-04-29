@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wordpress.kadekadityablog.cahayautamastore.MainActivity">
+
+
+    <ImageView
+        android:src="@drawable/shopicon"
+        android:id="@+id/shopicon"
+        android:layout_height="80dp"
+        android:layout_width="wrap_content"
+        android:background="#C5E1A5"
+        android:padding="8dp"/>
+
+    <ImageView
+        android:src="@drawable/vegetable"
+        android:id="@+id/vege"
+        android:layout_height="160dp"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/shopicon"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:text="Cahaya Utama Grocery Store"
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vege"
+        android:padding="8dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#F57C00"
+        android:background="#A5D6A7"/>
+
+    <TextView
+        android:text="Menjual berbagai macam keperluan sehari-hari, baik kebutuhan sayuran dan buah-buahan. Menjamin kebersihan dan kebaikan gizi bagi keluarga"
+        android:id="@+id/isi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heading"
+        android:padding="8dp"
+        android:textSize="20sp"
+        android:textColor="#F57C00"
+        android:background="#80CBC4"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:src="@drawable/addicon"
+        android:id="@+id/addicon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/isi"
+        android:background="#4FC3F7"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"/>
+
+    <TextView
+        android:text="Terminal Pesiapan, Tabanan"
+        android:id="@+id/alamat"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/isi"
+        android:layout_toRightOf="@+id/addicon"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textColor="#F57C00"
+        android:background="#4FC3F7"/>
+
+    <ImageView
+        android:src="@drawable/phoneicon"
+        android:id="@+id/phoneicon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/addicon"
+        android:background="#B3E5FC"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"/>
+
+    <TextView
+        android:text="(0361) 811606"
+        android:id="@+id/notelpon"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/alamat"
+        android:layout_toRightOf="@+id/addicon"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textColor="#F57C00"
+        android:background="#B3E5FC"/>
+
+    <ImageView
+        android:src="@drawable/hoursicon"
+        android:id="@+id/hoursicon"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/phoneicon"
+        android:background="#C5CAE9"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp">
+    </ImageView>
+
+    <TextView
+        android:text="07.00 AM - 07.00 PM"
+        android:id="@+id/jambuka"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/notelpon"
+        android:layout_toRightOf="@+id/addicon"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textColor="#F57C00"
+        android:background="#C5CAE9"/>
+
+</RelativeLayout>
